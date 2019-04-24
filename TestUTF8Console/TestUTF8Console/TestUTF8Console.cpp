@@ -36,7 +36,7 @@ int main()
 
     // Print UTF-16-encoded text
     std::wcout << Utf16FromUtf8("Japan") << L"\n\n";
-    std::wcout << Utf16FromUtf8(japan)    << L'\n';
+    std::wcout << Utf16FromUtf8(japan)   << L'\n';
 }
 
 ////////////////////////////////////////////////////////////////////////////////
